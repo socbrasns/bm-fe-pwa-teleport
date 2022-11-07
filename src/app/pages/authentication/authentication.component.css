@@ -1,0 +1,41 @@
+:host { 
+  display: contents; 
+}
+.authentication-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.authentication-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.authentication-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+@media(max-width: 1200px) {
+  .authentication-container {
+    background-color: var(--dl-color-gray-black);
+  }
+  .authentication-container1 {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .authentication-text {
+    color: #ffffff;
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}

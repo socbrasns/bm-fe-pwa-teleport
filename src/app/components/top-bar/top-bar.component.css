@@ -1,0 +1,28 @@
+:host { 
+  display: contents; 
+}
+.top-bar-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media(max-width: 1200px) {
+  .top-bar-container {
+    height: var(--dl-size-size-medium);
+    align-items: flex-start;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
+  }
+  .top-bar-text {
+    color: #ffffff;
+    align-self: center;
+    text-align: center;
+  }
+}
